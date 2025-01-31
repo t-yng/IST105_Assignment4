@@ -17,7 +17,7 @@ c = to_numeric(sys.argv[3], "C")
 result = 0
 
 if a < 1:
-    print("A is too small. Please input value more than 1")
+    print("A is too small. Please input value more than or equal to 1")
     exit(1)
 
 if b == 0:
